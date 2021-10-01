@@ -8,7 +8,11 @@ class Cell(object):
 
 
 def main():
-    cellstring = input("Please enter the values in one long string of text: ")
+    # Uncomment to allow user input
+    # cellstring = input("Please enter the values in one long string of text: ")
+
+    # Uncomment for a test input
+    cellstring = "800100000000003069000478030040000000000804103000000607500007008007600500000035090"
 
     grid = []
     for i, c in enumerate(cellstring):
@@ -28,7 +32,9 @@ def main():
         possibles(grid)
 
         printgrid(grid)
-        printopts(grid)
+        
+        # For error checking to see what options each box should have available
+        # printopts(grid)
 
         new = countopt(grid)
 
@@ -125,6 +131,8 @@ def printgrid(grid):
         print(str(x.val), end='')
 
     print("|")
+    print("-------------")
+    print("")
 
 
 def printopts(grid):
