@@ -14,17 +14,35 @@ Every good README has a table of contents, right?
 ## TO DO
 
 - [x] Create the basic algorithm that looks through rows, columns, and diagonals
-- [ ] Modularize functions to be useful outside of this program
-- [ ] Modularize Cell object
+- [x] Modularize functions to be useful outside of this program
+- [x] Modularize Cell object
+- [x] Add ability to solve naked pairs
+- [x] Add ability to add additional sudoku types (diagonals, strange-sized regions)
 - [ ] Add a UI (using django?) to make it easier to use
-- [ ] Consider additional solving functions, such as naked pairs or alt sudokus
+- [ ] Add additional solving techniques (naked triples+, hidden pairs+, interactions)
  
 ## File Structure
 
-- _brains.py_
-  - The brains of the opperation, all there is currently
+- _cell.py_
+  - Represents one cell in a sudoku puzzle
+- _region.py_
+  - Represents one region in a sudoku puzzle (i.e. row, column, box, etc)
+- _sudoku.py_
+  - Represents a sudoku puzzle, this is the brains
+- _main.py_
+  - Current location for running the program
 
 ## Changelog
+
+### 10/10/21
+
+From [Dan](https://github.com/danielgaylord)
+
+- Delayed commit (this work occured among 3 days)
+- Seperated program into cell, region, and sudoku classes
+- Created helper functions and move pre existing functions around to make program more 'modular' and easy to read
+- Added ability to solve non-normal sudoku puzzle types
+- Added ability to use the nake pair solving technique
 
 ### 10/7/21
 
