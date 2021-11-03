@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+    <head>
+        {% if title %}
+        <title>{{title}} - Pydoku</title>
+        {% else %}
+        <title>Welcome to Pydoku</title>
+        {% endif %}
+    </head>
+    <body>
+        <div>Pydoku: <a href="/index">Home</a></div>
+        <hr>
+        {% block content %}{% endblock %}
+    </body>
+</html>

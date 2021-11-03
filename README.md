@@ -34,6 +34,12 @@ Every good README has a table of contents, right?
 
 ## Changelog
 
+### 11/02/21
+
+From [Dan](https://github.com/danielgaylord)
+
+- Initializing Flask and starting template
+
 ### 10/10/21
 
 From [Dan](https://github.com/danielgaylord)
