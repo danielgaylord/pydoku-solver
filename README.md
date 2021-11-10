@@ -34,6 +34,13 @@ Every good README has a table of contents, right?
 
 ## Changelog
 
+### 11/09/21
+
+From [Dan](https://github.com/danielgaylord)
+
+- Added React for frontend
+- Added Heroku for deployment
+
 ### 11/02/21
 
 From [Dan](https://github.com/danielgaylord)
