@@ -18,7 +18,7 @@ Every good README has a table of contents, right?
 - [x] Modularize Cell object
 - [x] Add ability to solve naked pairs
 - [x] Add ability to add additional sudoku types (diagonals, strange-sized regions)
-- [ ] Add a UI (using django?) to make it easier to use
+- [ ] Add a UI (using flash?) to make it easier to use
 - [ ] Add additional solving techniques (naked triples+, hidden pairs+, interactions)
  
 ## File Structure
