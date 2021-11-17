@@ -1,1 +1,1 @@
-web: gunicorn app:pydoku
+web: gunicorn pydoku:app
