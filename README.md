@@ -19,6 +19,7 @@ Every good README has a table of contents, right?
 - [x] Add ability to solve naked pairs
 - [x] Add ability to add additional sudoku types (diagonals, strange-sized regions)
 - [ ] Add additional solving techniques (naked triples+, hidden pairs+, interactions)
+- [ ] Add backtracking to solve puzzles that there are not 'techniques' for yet
  
 ## File Structure
 
