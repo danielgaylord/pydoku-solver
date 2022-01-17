@@ -18,7 +18,6 @@ Every good README has a table of contents, right?
 - [x] Modularize Cell object
 - [x] Add ability to solve naked pairs
 - [x] Add ability to add additional sudoku types (diagonals, strange-sized regions)
-- [ ] Add a UI (using flash?) to make it easier to use
 - [ ] Add additional solving techniques (naked triples+, hidden pairs+, interactions)
  
 ## File Structure
@@ -33,6 +32,12 @@ Every good README has a table of contents, right?
   - Current location for running the program
 
 ## Changelog
+
+### 1/17/21
+
+From [Dan](https://github.com/danielgaylord)
+
+- Rollback to non-web app, will move all web app functionality to the [Game Toybox](https://github.com/danielgaylord/game-toybox)
 
 ### 11/09/21
 
